@@ -1,13 +1,14 @@
 {
   "expo": {
-    "name": "test-app1",
-    "slug": "test-app1",
+    "name": "Gym Pace",
+    "slug": "gym-pace",
+    "description": "This is an app to keep track of gym progress",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/man.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/man.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
