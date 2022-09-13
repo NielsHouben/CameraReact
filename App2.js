@@ -4,6 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 
+
 const Stack = createNativeStackNavigator();
 
 const HomeScreen = ({ navigation }) => {
@@ -35,28 +36,18 @@ const MyStack = () => {
   );
 };
 
-
 const App = () => {
   return (
     <View style={styles.container}>
-      <Text>GO GYM!</Text>
-      <Text>hej agaton</Text>
-      <StatusBar style="auto" />
+      <NavigationContainer>
+        <Text>GO GYM!</Text>
+        <StatusBar style="auto" />
+      </NavigationContainer>
     </View>
-    // <NavigationContainer>
-    //   <Stack.Navigator>
-    //     <Stack.Screen
-    //       name="Home"
-    //       component={HomeScreen}
-    //       options={{ title: 'Welcome' }}
-    //     />
-    //     <Stack.Screen name="Profile" component={ProfileScreen} />
-    //   </Stack.Navigator>
-    // </NavigationContainer>
   );
 };
-export default App;
-// export default MyStack;
+// export default App;
+export default MyStack;
 
 const styles = StyleSheet.create({
   container: {
