@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Gym Pace",
-    "slug": "gym-pace",
-    "description": "This is an app to keep track of gym progress",
+    "name": "Camera React",
+    "slug": "camera-react",
+    "description": "This is an app to test out the camera on react",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/logo.png",
